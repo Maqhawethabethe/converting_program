@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Decimal_Hexadecimal{
     public static void main(String args[])throws IOException
     {
+      if(decimal<10000){
       Scanner input = new Scanner( System.in );
       System.out.print("Enter a decimal number : ");
       int decimal =input.nextInt();
@@ -16,8 +17,8 @@ public class Decimal_Hexadecimal{
       // calling method toHexString()
       String str = Integer.toHexString(decimal);
       System.out.println(decimal+" In Decimal = "+str+" in Hexadecimal");
-      
-      
+      }  
+     
       //converting Base10-Binary 2nd
       Scanner user_Value = new Scanner( System.in );
       System.out.print("Enter a base 10 number : ");
