@@ -17,7 +17,9 @@ public class Decimal_Hexadecimal{
       // calling method toHexString()
       String str = Integer.toHexString(decimal);
       System.out.println(decimal+" In Decimal = "+str+" in Hexadecimal");
-      }  
+      }else{
+      System.out.println("Number entered exceeded 10 000")
+      }
      
       //converting Base10-Binary 2nd
       Scanner user_Value = new Scanner( System.in );
